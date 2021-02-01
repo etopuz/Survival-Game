@@ -22,13 +22,16 @@ Unity 2018.4.26f1
 - [ ] Implement Inventory
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
+- [ ] Implement Crouching // Delayed => I need to work on animations more often.
 #### In Progress
-- [ ] Implement Crouching
-- [ ] Implement Sprint
-- [ ] Fix collide bugs
+- [ ] Fix environment collide bugs
+- [ ] Implement Animation controller
 #### Done ✓
-- [x] Basic Movement (Walk, jump, gravity etc.)
-- [x] First Person Camera
+- [x] Basic Movement (Walk, jump, gravity etc.) handled.
+- [x] First person camera handled.
+- [x] FPS camera collision fixed.
+- [x] Some Animations are fixed.
+
 
 
 
