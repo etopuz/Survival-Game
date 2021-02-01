@@ -10,7 +10,7 @@ Unity 2018.4.26f1
 - [Fire, Lamps ,Trees etc.](https://devassets.com/assets/rpg-tutorial-assets/) 
   <br>
 ## Fallowed Tutorials
-- [Movement With Player Controller From Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
+- [First Person Movement from Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
   <br>
 ## Roadmap
 #### Todo
