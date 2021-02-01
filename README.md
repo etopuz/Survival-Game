@@ -10,7 +10,7 @@
 - [Movement With Player Controller From Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
   <br>
 ## Roadmap
-### Todo
+#### Todo
 - [ ] Implement Powerup system
 - [ ] Implement Health, stamina, food system
 - [ ] Implement Gathering, Mining etc.
@@ -19,10 +19,11 @@
 - [ ] Implement Inventory
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
-### In Progress
+#### In Progress
 - [ ] Implement Crouching
+- [ ] Implement Sprint
 - [ ] Fix collide bugs
-### Done ✓
+#### Done ✓
 - [x] Basic Movement (Walk, jump, gravity etc.)
 - [x] First Person Camera
 
