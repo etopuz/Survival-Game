@@ -1,7 +1,10 @@
 # Survival FPS Game
   This game is Survival FPS Game developing with Unity. Currently not finished and not avaliable to play. Developing for educational purposes and adding some games to my portfolio. I'm not trying to develop Rust 2. :) 
  <br>
-## Assets Sources
+## Unity Version
+Unity 2018.4.26f1
+ <br>
+## Asset Sources
 - [Player character model and animations](https://www.mixamo.com/#/?page=1&type=Character)
 - [Desert scene](https://runemarkstudio.itch.io/poly-desert)
 - [Fire, Lamps ,Trees etc.](https://devassets.com/assets/rpg-tutorial-assets/) 
