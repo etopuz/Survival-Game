@@ -25,13 +25,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     bool isGrounded;
 
-    private Animator playerAnim;
-    private bool isAttacking = true;
 
 
     private void Awake()
     {
-        playerAnim = transform.Find("remy").GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
         groundMask = LayerMask.GetMask("Ground");
         groundCheck = transform.Find("GroundCheck");
@@ -43,17 +40,8 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
         Gravity();
-        Attack();
     }
 
-    private void Attack()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            playerAnim.SetBool("isAttacking", isAttacking);
-            //isAttacking = false;
-        }
-    }
 
     private void Jump()
     {
