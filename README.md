@@ -31,7 +31,7 @@ Unity 2018.4.26f1
 - [x] First person camera handled.
 - [x] FPS camera collision fixed.     // (02/02/2021)
 - [x] Some Animations are fixed.      // (02/02/2021)
-- [x] Implement Animation controller  // (02/03/2021)
+- [x] Animation controller implemented  // (02/03/2021)
 
 
 
