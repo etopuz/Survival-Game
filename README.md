@@ -26,7 +26,7 @@ Unity 2018.4.26f1
 #### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Fix environment collide bugs
 - [ ] Implement Animation controller
-#### Done ✓
+#### Done :heavy_check_mark:
 - [x] Basic Movement (Walk, jump, gravity etc.) handled.
 - [x] First person camera handled.
 - [x] FPS camera collision fixed.
