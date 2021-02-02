@@ -13,7 +13,7 @@ Unity 2018.4.26f1
 - [First Person Movement from Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
   <br>
 ## Roadmap
-#### Todo
+#### Todo <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Implement Powerup system
 - [ ] Implement Health, stamina, food system
 - [ ] Implement Gathering, Mining etc.
