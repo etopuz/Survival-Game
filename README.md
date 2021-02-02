@@ -16,8 +16,8 @@ Unity 2018.4.26f1
 #### Todo :o:
 - [ ] Implement Gathering, Mining etc.
 - [ ] Implement Attacking and loot drops.
-- [ ] Implement UI
 - [ ] Implement Inventory
+- [ ] Implement UI / Menu
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
 - [ ] Implement Crouching // Delayed
@@ -31,7 +31,7 @@ Unity 2018.4.26f1
 - [x] First person camera handled.
 - [x] FPS camera collision fixed.     // (02/02/2021)
 - [x] Some Animations are fixed.      // (02/02/2021)
-- [x] Animation controller implemented  // (02/03/2021)
+- [x] Animation controller implemented.  // (02/03/2021)
 
 
 
