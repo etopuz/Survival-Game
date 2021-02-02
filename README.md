@@ -13,7 +13,7 @@ Unity 2018.4.26f1
 - [First Person Movement from Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
   <br>
 ## Roadmap
-#### Todo <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
+#### Todo 
 - [ ] Implement Powerup system
 - [ ] Implement Health, stamina, food system
 - [ ] Implement Gathering, Mining etc.
@@ -23,7 +23,7 @@ Unity 2018.4.26f1
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
 - [ ] Implement Crouching // Delayed => I need to work on animations more often.
-#### In Progress
+#### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Fix environment collide bugs
 - [ ] Implement Animation controller
 #### Done ✓
