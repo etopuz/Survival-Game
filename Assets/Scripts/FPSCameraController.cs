@@ -16,7 +16,7 @@ public class FPSCameraController : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         CameraRotation();
     }

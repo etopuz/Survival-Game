@@ -2,48 +2,87 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationController : MonoBehaviour
+public class PlayerAnimationController : Player
 {
-    public enum AnimState
+    private Animator playerAnimator;
+
+
+
+    private void Awake()
     {
-        Idle,
-        Running,
-        Jumping,
-        Attacking,
-        Mining,
-        Dying
+        playerAnimator = GetComponent<Animator>();
     }
 
-    public AnimState animState;
-
-    public void Idle()
+    public void FixedUpdate()
     {
+        CheckState();
+    }
+
+    public void CheckState()
+    {
+        switch (Player.state)
+        {
+            case Player.State.Idle:
+                PlayIdle();
+                break;
+            case Player.State.Running:
+                PlayRunning();
+                break;
+            case Player.State.Jumping:
+                PlayJumping();
+                break;
+            case Player.State.Attacking:
+                PlayAttacking();
+                break;
+            case Player.State.Mining:
+                PlayMining();
+                break;
+            case Player.State.Dying:
+                PlayDying();
+                break;
+            default:
+                break;
+        }
 
     }
 
-    public void Running()
+    public void PlayIdle()
     {
-
+        playerAnimator.SetBool("isRunning", false);
+        stopAll();
     }
 
-    public void Jumping()
+    public void PlayRunning()
     {
-
+        playerAnimator.SetBool("isRunning", true);
     }
 
-    public void Attacking()
+    public void PlayJumping()
     {
-
+        playerAnimator.SetTrigger("Jumping");
     }
 
-    public void Mining()
+    public void PlayAttacking()
     {
-
+        playerAnimator.SetTrigger("Attacking");
     }
 
-    public void Dying()
+    public void PlayMining()
     {
+        playerAnimator.SetTrigger("Mining");
+    }
 
+    public void PlayDying()
+    {
+        playerAnimator.SetTrigger("Dying");
+    }
+
+    public void stopAll()
+    {
+        playerAnimator.ResetTrigger("Jumping");
+        playerAnimator.ResetTrigger("Attacking");
+        playerAnimator.ResetTrigger("Mining");
+        playerAnimator.ResetTrigger("Dying");
     }
 
 }

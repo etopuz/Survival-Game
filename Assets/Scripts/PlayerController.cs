@@ -46,7 +46,11 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         if (Input.GetButtonDown("Jump") && isGrounded)
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -3f * gravity);
+            Player.state = Player.State.Jumping;
+        }
+            
     }
 
     private void CheckIsGrounded()
@@ -68,6 +72,10 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         Vector3 move = transform.right * horizontal + transform.forward * vertical;
         controller.Move(move * speed * Time.deltaTime);
+        if (vertical != 0)
+            Player.state = Player.State.Running;
+        else
+            Player.state = Player.State.Idle;
     }
 
 
