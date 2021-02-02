@@ -14,23 +14,24 @@ Unity 2018.4.26f1
   <br>
 ## Roadmap
 #### Todo :o:
-- [ ] Implement Powerup system
-- [ ] Implement Health, stamina, food system
 - [ ] Implement Gathering, Mining etc.
 - [ ] Implement Attacking and loot drops.
 - [ ] Implement UI
 - [ ] Implement Inventory
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
-- [ ] Implement Crouching // Delayed => I need to work on animations more often.
+- [ ] Implement Crouching // Delayed
+- [ ] Add Save System // Delayed
 #### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Fix environment collide bugs
-- [ ] Implement Animation controller
+- [ ] Implement Powerup system
+- [ ] Implement Health, stamina, food system
 #### Done :heavy_check_mark:
 - [x] Basic Movement (Walk, jump, gravity etc.) handled.
 - [x] First person camera handled.
-- [x] FPS camera collision fixed.
-- [x] Some Animations are fixed.
+- [x] FPS camera collision fixed.     // (02/02/2021)
+- [x] Some Animations are fixed.      // (02/02/2021)
+- [x] Implement Animation controller  // (02/03/2021)
 
 
 
