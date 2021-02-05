@@ -15,7 +15,6 @@ Unity 2018.4.26f1
   <br>
 ## Roadmap
 #### Todo :o:
-- [ ] Implement Gathering, Mining etc.
 - [ ] Implement Attacking and loot drops.
 - [ ] Implement Inventory
 - [ ] Implement UI / Menu
@@ -24,9 +23,11 @@ Unity 2018.4.26f1
 - [ ] Add Building system
 - [ ] Implement Crouching // Delayed
 - [ ] Add Save System // Delayed
-#### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 
+#### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
+- [ ] Implement Gathering, Mining etc.
 - [ ] Implement Health, stamina, food system
+
 #### Done :heavy_check_mark:
 - [x] Basic Movement (Walk, jump, gravity etc.) handled.
 - [x] First person camera handled.
