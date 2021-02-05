@@ -78,5 +78,14 @@ public class PlayerController : MonoBehaviour
             Player.state = Player.State.Idle;
     }
 
+    public void ChangeSpeed(float multiplier)
+    {
+        speed *= multiplier;
+    }
+
+    public void ChangeJumpHeight(float multiplier)
+    {
+        jumpHeight *= multiplier;
+    }
 
 }

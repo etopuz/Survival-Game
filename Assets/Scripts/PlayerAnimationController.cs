@@ -49,7 +49,7 @@ public class PlayerAnimationController : Player
     public void PlayIdle()
     {
         playerAnimator.SetBool("isRunning", false);
-        stopAll();
+        StopAll();
     }
 
     public void PlayRunning()
@@ -77,7 +77,7 @@ public class PlayerAnimationController : Player
         playerAnimator.SetTrigger("Dying");
     }
 
-    public void stopAll()
+    public void StopAll()
     {
         playerAnimator.ResetTrigger("Jumping");
         playerAnimator.ResetTrigger("Attacking");
