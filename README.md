@@ -1,5 +1,5 @@
 # Survival Game
-  This game is Survival Game developing with Unity. Currently not finished and not avaliable to play. Developing for improving my skills on Unity3D and adding some games to my portfolio. I'm not trying to develop Rust 2. :) 
+  This game is Survival Game developing with Unity. Currently not finished and not avaliable to play. Developing for improving my skills on Unity and adding some games to my portfolio. I'm not trying to develop Rust 2. :) 
  <br>
 ## Unity Version
 Unity 2018.4.26f1
