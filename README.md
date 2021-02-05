@@ -8,6 +8,7 @@ Unity 2018.4.26f1
 - [Player character model and animations](https://www.mixamo.com/#/?page=1&type=Character)
 - [Desert scene](https://runemarkstudio.itch.io/poly-desert)
 - [Fire, Lamps ,Trees etc.](https://devassets.com/assets/rpg-tutorial-assets/) 
+- [PowerUp Material and Model](https://devilsworkshop.itch.io/low-poly-3d-and-pixel-2d-rpg-game-assets)
   <br>
 ## Fallowed Tutorials
 - [First Person Movement from Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
@@ -20,11 +21,11 @@ Unity 2018.4.26f1
 - [ ] Implement UI / Menu
 - [ ] Implement Crafting
 - [ ] Add Voices, particles and more animations
+- [ ] Add Building system
 - [ ] Implement Crouching // Delayed
 - [ ] Add Save System // Delayed
 #### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Fix environment collide bugs
-- [ ] Implement Powerup system
 - [ ] Implement Health, stamina, food system
 #### Done :heavy_check_mark:
 - [x] Basic Movement (Walk, jump, gravity etc.) handled.
@@ -32,6 +33,7 @@ Unity 2018.4.26f1
 - [x] FPS camera collision fixed.     // (02/02/2021)
 - [x] Some Animations are fixed.      // (02/02/2021)
 - [x] Animation controller implemented.  // (02/03/2021)
+- [x] Powerup system implemented     // (02/05/2021)
 
 
 
