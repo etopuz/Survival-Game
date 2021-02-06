@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+namespace PlayerScriptSystem
 {
-    public enum State
+    public class Player : MonoBehaviour
     {
-        Idle,
-        Running,
-        Jumping,
-        Attacking,
-        Mining,
-        Dying
-    }
+        public enum State
+        {
+            Idle,
+            Running,
+            Sprinting,
+            Jumping,
+            Attacking,
+            Mining,
+            Dying
+        }
 
-    public static State state;
+        public static State state;
+
+    }
 }
+

@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttackController : Player
+namespace PlayerScriptSystem
 {
+    public class PlayerAttackController : Player
+    {
 
+    }
 }
+
