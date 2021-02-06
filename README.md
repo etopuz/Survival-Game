@@ -18,7 +18,6 @@ Unity 2018.4.26f1
 ## Roadmap
 #### Todo :o:
 - [ ] Implement Attacking and loot drops.
-
 - [ ] Implement Crafting
 - [ ] Implement Gathering, Mining etc.
 - [ ] Add Voices, particles and more animations
