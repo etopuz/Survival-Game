@@ -12,8 +12,8 @@ Unity 2018.4.26f1
 - [Survival UI](https://assetstore.unity.com/packages/tools/gui/survival-ui-system-free-165299);
   <br>
 ## Fallowed Tutorials
-- [First Person Movement from Brackeys](https://www.youtube.com/watch?v=_QajrabyTJc&t=1s)
-- [Creating a SURVIVAL UI System from SpeedTutor](https://www.youtube.com/watch?v=OcFIFOi3ZPk&t=1371s)
+- [First Person Movement from Brackeys](https://youtu.be/_QajrabyTJc)
+- [Creating a SURVIVAL UI System from SpeedTutor](https://youtu.be/OcFIFOi3ZPk)
   <br>
 ## Roadmap
 #### Todo :o:
