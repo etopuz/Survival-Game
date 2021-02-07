@@ -17,7 +17,7 @@ Unity 2018.4.26f1
   <br>
 ## Roadmap
 #### Todo :o:
-- [ ] Implement Attacking and loot drops.
+- [ ] Implement Attacking and loot drops
 - [ ] Implement Crafting
 - [ ] Implement Gathering, Mining etc.
 - [ ] Add Voices, particles and more animations
@@ -26,6 +26,7 @@ Unity 2018.4.26f1
 - [ ] Add Save System // Delayed
 
 #### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
+- [ ] Implement interaction
 - [ ] Implement Inventory
 - [ ] Implement UI / Menu
 
