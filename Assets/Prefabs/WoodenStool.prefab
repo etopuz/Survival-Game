@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 177541222740946034}
   - component: {fileID: 167898829016525962}
   - component: {fileID: 144518884308676214}
-  m_Layer: 0
+  - component: {fileID: 2113927160582620650}
+  m_Layer: 9
   m_Name: WoodenStool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145691489230267962}
-  m_LocalRotation: {x: -0.37141016, y: 0.6164477, z: 0.6568868, w: 0.22482567}
+  m_LocalRotation: {x: -0.37140718, y: 0.6164488, z: 0.65688795, w: 0.22482385}
   m_LocalPosition: {x: -7.61, y: -0.9890001, z: 13.93}
-  m_LocalScale: {x: -1.1221352, y: -0.28601268, z: -0.18105046}
+  m_LocalScale: {x: -1.1221352, y: -0.28601262, z: -0.18105046}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,4 +91,17 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.51261497, y: 2.3100464, z: 4.093585}
-  m_Center: {x: -0.0000004911325, y: -0.0034454355, z: -0.5235892}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2113927160582620650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145691489230267962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e840187c7feccc245aeb0c39139a1434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3

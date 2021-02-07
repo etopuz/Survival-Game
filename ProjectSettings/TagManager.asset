@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - PowerUp
+  - Collactable
+  - Item
+  - Collectable
   layers:
   - Default
   - TransparentFX
