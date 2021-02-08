@@ -29,7 +29,7 @@ Unity 2018.4.26f1
 #### In Progress <img src="https://i.imgur.com/RlS6YST.gif" alt="https://i.imgur.com/RlS6YST.gif">
 - [ ] Implement Inventory.
 - [ ] Implement UI / Menu.
-- [ ] Implement More Interactive Objects like doors and chests.
+- [ ] Implement More Interactive Objects doors and chests etc.
 
 #### Done :heavy_check_mark:
 - [x] Basic Movement (Walk, jump, gravity etc.) handled.
