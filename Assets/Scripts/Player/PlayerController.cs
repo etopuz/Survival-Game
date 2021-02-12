@@ -123,7 +123,6 @@ namespace PlayerScriptSystem
         {
             jumpHeight *= multiplier;
         }
-
     }
 
 }

@@ -85,9 +85,8 @@ namespace PlayerScriptSystem
             if (playerStamina >= maxStamina)
                 playerStamina = maxStamina;
 
-            else if (isTired)
+            else if (isTired && Player.state != Player.State.Idle)
                 playerStamina = LIMIT;
-
 
             switch (Player.state)
             {

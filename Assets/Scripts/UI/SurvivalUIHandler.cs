@@ -15,9 +15,9 @@ namespace SurvivalUISystem
 
         private void Awake()
         {
-            healthImage = transform.Find("HealthUI_Green").GetComponent<Image>();
-            staminaImage = transform.Find("StaminaUI").GetComponent<Image>();
-            hungerImage = transform.Find("HungerUI").GetComponent<Image>();
+            healthImage = transform.Find("SurvivalUI/HealthUI_Green").GetComponent<Image>();
+            staminaImage = transform.Find("SurvivalUI/StaminaUI").GetComponent<Image>();
+            hungerImage = transform.Find("SurvivalUI/HungerUI").GetComponent<Image>();
 
         }
 

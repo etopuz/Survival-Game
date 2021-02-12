@@ -8,15 +8,14 @@ namespace PlayerScriptSystem
     public class PlayerInteractive : MonoBehaviour
     {
         [SerializeField] private float rayLength = 4.3f;
-        [SerializeField] private KeyCode interactiveKeyCode = KeyCode.E;
         [SerializeField] private string objectTag;
         [SerializeField] private InteractingPopUpController interactingPopUpController;
+        [SerializeField] private KeyCode keyCode = KeyCode.E;
         private Ray ray;
         private RaycastHit hit;
 
         public void Awake()
         {
-
             GameObject interactingPopUp = GameObject.Find("/InGameUI/InteractingPopUP");
             interactingPopUpController = interactingPopUp.GetComponent<InteractingPopUpController>();
         }
@@ -31,9 +30,9 @@ namespace PlayerScriptSystem
         {
             ray = new Ray(transform.position, transform.forward);
             if (Physics.Raycast(ray, out hit, rayLength))
-            {
                 objectTag = hit.transform.tag;
-            }
+            else
+                objectTag = "";
         }
 
         private void CheckObject()
@@ -42,10 +41,9 @@ namespace PlayerScriptSystem
             switch (objectTag)
             {
                 case "Collectable":
-                    CheckCollect("Collect");
-                    break;
-                case "Item":
-                    CheckCollect("Take Item");
+                    Collectable collectable = hit.transform.GetComponent<Collectable>();
+                    interactingPopUpController.SetTextAndMessage(keyCode.ToString(), "Collect");
+                    collectable.CheckCollect(hit, keyCode);
                     break;
                 case "ItemStock":
                     break;
@@ -57,33 +55,10 @@ namespace PlayerScriptSystem
             }
         }
 
-        private void CheckCollect(string message)
-        {
-            interactingPopUpController.SetTextAndMessage(interactiveKeyCode.ToString(), message);
-            if (Input.GetKeyDown(interactiveKeyCode))
-            {
-                if (hit.transform != null)
-                {
-                    Destroy(hit.transform.gameObject);
-                    objectTag = "";
-                }
-            }
-
-        }
 
 
 
-        /* I LOVE ZOMBIE CODES <3
 
-        private void RayDebug()
-        {
-            if (Physics.Raycast(ray, out hit, rayLength))
-                Debug.DrawLine(ray.origin, hit.point, Color.green);
-            else
-                Debug.DrawLine(ray.origin, ray.origin + ray.direction * rayLength, Color.red);
-        }
-
-        */
     }
 
 }
