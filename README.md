@@ -4,7 +4,6 @@
 ## Unity Version
 Unity 2018.4.26f1
  <br>
-
 ## Fallowed Tutorials
 - [First Person Movement from Brackeys](https://youtu.be/_QajrabyTJc)
 - [Creating a SURVIVAL UI System from SpeedTutor](https://youtu.be/OcFIFOi3ZPk)
@@ -35,7 +34,7 @@ Unity 2018.4.26f1
 - [x] Fix environment collide bugs  // (02/05/2021)
 - [x] Health, hunger, stamina and Survival UI implemented // (02/06/2021)
 - [x] Gathering and basic interaction implemented. // (02/08/2021)
-- [x] Inventory and inventory Id implemmented. // (02/12/2021)
+- [x] Inventory and inventory UI implemented. // (02/12/2021)
 
 ## Asset Sources
 - [Player character model and animations](https://www.mixamo.com/#/?page=1&type=Character)
