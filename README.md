@@ -44,7 +44,7 @@ Unity 2018.4.26f1
 - [PowerUp Material and Model](https://devilsworkshop.itch.io/low-poly-3d-and-pixel-2d-rpg-game-assets)
 - [Survival UI](https://assetstore.unity.com/packages/tools/gui/survival-ui-system-free-165299)
 - [Key image for UI](https://www.pngjoy.com/preview/u4w3h4p2r5t9y5_keyboard-keys-blank-keyboard-key-transparent-background-hd/)
-- [3D Branch Model](https://poly.google.com/view/8w-ed__H6Tl - branch 3d model)
+- [3D Branch Model](https://poly.google.com/view/8w-ed__H6Tl)
 - [Branch Icon](https://pixabay.com/vectors/branch-wood-tree-nature-branches-576845)
 - [Stone Icon](https://pixabay.com/vectors/rock-boulder-stone-nature-granite-576669/)
 - [Aloe Icon](https://pixabay.com/tr/illustrations/aloe-vera-bitki-ye%C5%9Fil-aloe-vera-1451802/)
