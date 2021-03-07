@@ -1,5 +1,5 @@
 # Survival Game
-  This game is a Survival Game developing with Unity. Currently not finished and not avaliable to play.
+  This game is a Survival Game developing with Unity. Currently not finished and not available to play.
 ## Unity Version
 Unity 2018.4.26f1
  <br>
